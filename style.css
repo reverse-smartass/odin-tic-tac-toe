@@ -1,0 +1,42 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#board{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.row{
+    display: flex;
+}
+
+.case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: 25vh;
+    width: 25vh;
+    flex-wrap: wrap;
+    font-size: 12vh;
+    font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.case:hover{
+    background-color: aquamarine;
+}
+
+.case:active{
+    
+    opacity: 50%;
+}

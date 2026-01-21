@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="board">
+        
+    </div>
+
+    <div id="names">
+        <input type="text" id="player1Name" placeholder="Player 1 name" required>
+        <input type="text" id="player2Name" placeholder="Player 2 name" required>
+    </div>
+
+    <button id="start">start</button>
+
+    <dialog id="dial">
+        <form method="dialog" id="bookform">
+            <button type="button" onclick="this.closest('dialog').close();" value="cancel">Close</button>
+            <button id="submitBtn" type="submit" value="save">Submit</button>
+        </form>
+    </dialog>
+    
+</body>
+</html>
